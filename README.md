@@ -25,3 +25,7 @@ A hospital management system with doctor availability, patient booking, Google C
 | Email Service | AWS Lambda + Serverless Framework |
 | Frontend | HTML, CSS |
 | Local Testing | serverless-offline |
+
+## 📹 Demo Video
+
+**Demo Video Link** - https://drive.google.com/file/d/1B5m9G4DYtKKJfyC1mO7pbNwx0Qst4yrQ/view?usp=sharing
