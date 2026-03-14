@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="text-center py-12">
+    <h1 class="text-5xl font-bold text-gray-800 mb-6">Welcome to Hospital Management System</h1>
+    <p class="text-xl text-gray-600 mb-12">Book appointments with qualified doctors easily and securely</p>
+    
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+            <div class="text-6xl mb-4">👨‍⚕️</div>
+            <h2 class="text-2xl font-bold mb-4">For Doctors</h2>
+            <p class="text-gray-600 mb-6">Manage your availability, view appointments, and connect with patients</p>
+            <a href="{% url 'doctor_signup' %}" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 font-medium">Register as Doctor →</a>
+        </div>
+        
+        <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+            <div class="text-6xl mb-4">👤</div>
+            <h2 class="text-2xl font-bold mb-4">For Patients</h2>
+            <p class="text-gray-600 mb-6">Find doctors, book appointments, and manage your healthcare</p>
+            <a href="{% url 'patient_signup' %}" class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 font-medium">Register as Patient →</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
