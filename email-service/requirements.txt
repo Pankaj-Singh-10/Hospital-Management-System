@@ -1,0 +1,2 @@
+# No additional packages needed for basic SMTP
+# boto3 is included in Lambda environment
