@@ -23,5 +23,5 @@ A hospital management system with doctor availability, patient booking, Google C
 | Authentication | Session-based with roles |
 | Calendar API | Google Calendar API (OAuth2) |
 | Email Service | AWS Lambda + Serverless Framework |
-| Frontend | Bootstrap 5, HTML, CSS |
+| Frontend | HTML, CSS |
 | Local Testing | serverless-offline |
